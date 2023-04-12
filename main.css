@@ -1,3 +1,47 @@
 body {
   background-color: black;
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin: 50px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+  padding-top: 20px;
+  color: rgb(204, 3, 3);
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background-color: rgb(19, 19, 19);
+  height: 50px;
+  border: none;
+  --bs-btn-active-bg: red;
+}
+
+.btn:hover {
+  background-color: gray;
+  color: black;
+  cursor: pointer;
 }
